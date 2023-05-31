@@ -1,0 +1,20 @@
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$roboto: 'Roboto', sans-serif;
+
+// COLORS
+$main: #38E54D;
+$accent: #263A29;
+$white: #fafafa;
+$grey: #e9edf0;
+$black: #363738;
+
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

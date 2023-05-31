@@ -1,0 +1,47 @@
+.nav {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $accent;
+
+    &-container {
+        width: 50%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap:1rem;
+
+        &-title {
+            color: $white;
+
+            & span {
+                color: $main;
+            }
+        }
+    }
+}
+
+.links {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    background-color: $grey;
+
+    &-container {
+        &_link {
+            text-decoration: none;
+            color: $accent;
+            font-weight: 700;
+
+            &:hover {
+                color: $main;
+            }
+        }
+    }
+}
+
